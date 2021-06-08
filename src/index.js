@@ -6,6 +6,8 @@ import cors from 'cors'
 import routes from './routes/app'
 
 
+//bd 
+import pool from './settings/db'
 
 const app = express()
 
